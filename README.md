@@ -12,3 +12,6 @@ A functional web application built to practice **JavaScript** logic, DOM manipul
 
 ---
 *Created with 💻 as part of my programming roadmap.*
+---
+### 🔗 Live Demo
+[Click here to see the project in action]()

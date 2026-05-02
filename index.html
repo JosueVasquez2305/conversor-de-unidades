@@ -1,0 +1,33 @@
+<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet"
+    href="style.css"> 
+</head>
+<body>
+    <div class="container">
+         <h1>Unit Converter</h1>
+        <div class="converter-controls">
+           <input id="dataUser" type="number" placeholder="Value">
+
+           <select id="convert">
+            <option value="km-mll">Kilometers to Miles</option>
+            <option value="mll-km">Miles to Kilometers</option>
+            </select>
+           
+            <button  onclick="convert()">Convert</button>
+            </div>
+
+            <div id="resultBox">
+                <h3 id="resultDisplay">Result: 0</h3>
+                </div>
+            </div>
+
+            <script src="script.js"></script>
+</body>
+</html>

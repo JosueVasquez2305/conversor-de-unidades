@@ -1,0 +1,84 @@
+/*General background (deep purple/Dark)*/
+body {
+    background-color: #3b3061;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    background-color: #2e2650; /* O el color que prefieras para el fondo total */
+}
+
+/* The Margin Container (the Card)*/
+.container {
+    background-color: #4e4481;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0 0.3);
+    width: 90%;
+    text-align: left;
+    width: 350px;
+}
+
+/*White  Title*/
+h1{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/*Elements row (Input, Select, Button)*/
+.converter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+input {
+    width: 60px;
+    flex-grow: 1;
+}
+
+select {
+    width: 140px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*The Result Bar (The grey box)*/
+#resultBox {
+    background-color: #6d6499;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#resultDisplay {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box; /*Esto evita que los elementos se salgan de su caja*/
+}
+
+/* Para navegadores basados en Chrome, Safari, Edge y Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

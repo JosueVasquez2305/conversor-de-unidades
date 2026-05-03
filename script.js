@@ -7,11 +7,11 @@ function convert() {
     if (unitSelection === "km-mll") {
    // Option A: KM to MILES
 const result = inputAmount * 0.621;
-document.getElementById("resultDisplay").innerText = "resultt: " + result.toFixed (2) + " mi";
+document.getElementById("resultDisplay").innerText = "result: " + result.toFixed(2) + " mi";
 }
  else {
-  // Option B: MILES o HM (The Inverse)
+  // Option B: MILES o KM (The Inverse)
   const result = inputAmount / 0.621;
-  document.getElementById("resultDisplay").innerHTML = "Result: " + result.toFixed(2) + " km";
+  document.getElementById("resultDisplay").innerHTML = "result: " + result.toFixed(2) + " km";
  }
 }
